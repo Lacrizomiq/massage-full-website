@@ -9,7 +9,7 @@ export const Description = () => (
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
-                This is the start of something new
+                Construisons ensemble ton corps de demain
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
                 Managing a small business today is already tough. Avoid further
@@ -30,7 +30,7 @@ export const Description = () => (
             <div></div>
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
-                This is the start of something new
+                Des professionnels sérieux et passionés
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
                 Managing a small business today is already tough. Avoid further
