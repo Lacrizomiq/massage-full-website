@@ -14,7 +14,7 @@ export const Testimonials = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-10">
           <h2 className="text-3xl tracking-tighter text-left md:text-5xl lg:max-w-xl font-regular">
-            De nombreux clients nous font confiance
+            De nombreux clients nous font confiance :
           </h2>
           <Carousel className="w-full">
             <CarouselContent>

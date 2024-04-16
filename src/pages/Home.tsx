@@ -4,6 +4,7 @@ import { Description } from "./home/Description";
 import PricingCard from "./home/pricing";
 import { Pricing2 } from "./home/Pricing2";
 import { Testimonials } from "./home/Temoignage";
+import { CallToAction } from "./home/CallToAction";
 
 export const Home = () => (
   <div>
@@ -16,5 +17,7 @@ export const Home = () => (
     <Pricing2 />
     <Separator />
     <Testimonials />
+    <Separator />
+    <CallToAction />
   </div>
 );
