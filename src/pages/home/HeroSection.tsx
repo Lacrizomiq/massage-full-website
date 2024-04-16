@@ -18,7 +18,7 @@ export const HeroSection = () => (
           </div>
           <div className="flex flex-row gap-4">
             <Button size="lg" className="gap-4" variant="outline">
-              Prends rendez-vous
+              Prendre rendez-vous
               <PhoneCall className="w-4 h-4" />
             </Button>
           </div>

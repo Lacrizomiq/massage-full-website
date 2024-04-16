@@ -17,7 +17,7 @@ export const CallToAction = () => (
         </div>
         <div className="flex flex-row gap-4">
           <Button className="gap-4" variant="outline">
-            Prends ton rendez-vous <PhoneCall className="w-4 h-4" />
+            Prendre rendez-vous <PhoneCall className="w-4 h-4" />
           </Button>
         </div>
       </div>
