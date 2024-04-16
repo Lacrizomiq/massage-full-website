@@ -26,9 +26,10 @@ export const Testimonials = () => {
                         Meilleur décision de ma vie
                       </h3>
                       <p className="max-w-xs text-base text-muted-foreground">
-                        J'ai étais accompagner pendant plus de 6 mois. J'ai
-                        perdu plus de 10 kg et je me sens en pleine forme comme
-                        jamais je ne l'ai étais !
+                        J'ai étais accompagner pendant plus de 6 mois sur la
+                        prestation de renforcement musculaire. 10kg de perdu sur
+                        la balance et une amélioration de ma forme au quotidien
+                        qui est visible par tous !
                       </p>
                     </div>
                     <p className="flex flex-row items-center gap-2 text-sm">

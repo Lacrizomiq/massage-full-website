@@ -34,11 +34,11 @@ export const Footer = () => {
       description: "Qui nous sommes",
       items: [
         {
-          title: "About us",
+          title: "A propos de nous",
           href: "/about",
         },
         {
-          title: "Contact us",
+          title: "Nous contacter",
           href: "/contact",
         },
       ],
@@ -46,7 +46,7 @@ export const Footer = () => {
   ];
 
   return (
-    <div className="w-full py-8 lg:py-12 bg-foreground text-background">
+    <div className="w-full py-8 bg-blue-400 lg:py-12 bg-foreground text-background">
       <div className="container mx-auto">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="flex flex-col items-start gap-8">
@@ -55,13 +55,13 @@ export const Footer = () => {
                 Cabinet de massage
               </h2>
               <p className="max-w-lg text-lg leading-relaxed tracking-tight text-left text-background/75">
-                Ici que tout commence
+                C'est ici que tout commence.
               </p>
             </div>
             <div className="flex flex-row gap-20">
               <div className="flex flex-col max-w-lg text-sm leading-relaxed tracking-tight text-left text-background/75">
-                <p>Adresse</p>
-                <p>Isle sur la Sorgue</p>
+                <p>Adresse,</p>
+                <p>Isle sur la Sorgue,</p>
                 <p>84800</p>
               </div>
             </div>

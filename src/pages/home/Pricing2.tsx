@@ -69,7 +69,7 @@ export const Pricing2 = () => (
                     </div>
                   </div>
                 </div>
-                <Button className="gap-4">
+                <Button className="gap-4 bg-blue-400">
                   En savoir plus <MoveRight className="w-4 h-4" />
                 </Button>
               </div>
