@@ -30,7 +30,7 @@ export const Pricing2 = () => (
                 </span>
               </CardTitle>
               <CardDescription>
-                Massage bien-être pour vous détendre et vous relaxer.
+                Massage bien-être pour te détendre et te relaxer.
                 <br />
                 Le massage dure 1 heure.
               </CardDescription>
