@@ -198,10 +198,7 @@ export const Pricing2 = () => (
               <div className="flex flex-col justify-start gap-8">
                 <p className="flex flex-row items-center gap-2 text-xl">
                   <span className="text-4xl">400 €</span>
-                  <span className="text-sm text-muted-foreground">
-                    {" "}
-                    / month
-                  </span>
+                  <span className="text-sm text-muted-foreground"> / mois</span>
                 </p>
                 <div className="flex flex-col justify-start gap-4">
                   <div className="flex flex-row gap-4">

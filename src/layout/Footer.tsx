@@ -46,7 +46,7 @@ export const Footer = () => {
   ];
 
   return (
-    <div className="w-full py-8 bg-blue-400 lg:py-12 bg-foreground text-background">
+    <div className="w-full py-8 bg-blue-400 lg:py-12 text-background">
       <div className="container mx-auto">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="flex flex-col items-start gap-8">

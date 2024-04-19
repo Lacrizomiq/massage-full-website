@@ -16,6 +16,15 @@ export const RenforcementDetail = () => (
                 posture et de prévenir les blessures, nos séances de
                 renforcement musculaire mettent l'accent sur la pédagogie.
               </p>
+              <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
+                Intégrez ces exercices dans votre quotidien vous permettra
+                d’améliorer votre santé, renforcer votre corps et cultiver un
+                bien-être global.
+              </p>
+              <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
+                En complément, profitez également de sessions de massage
+                régénérantes incluses dans votre programme.
+              </p>
             </div>
           </div>
         </div>
