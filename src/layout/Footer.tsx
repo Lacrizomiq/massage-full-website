@@ -21,11 +21,11 @@ export const Footer = () => {
         },
         {
           title: "Mobilité",
-          href: "/mobilite-massage",
+          href: "mobilite-massage",
         },
         {
           title: "Renforcement",
-          href: "/coaching-massage",
+          href: "coaching-massage",
         },
       ],
     },

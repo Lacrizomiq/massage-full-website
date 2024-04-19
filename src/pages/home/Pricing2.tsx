@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { TbMassage } from "react-icons/tb";
 import { TbYoga } from "react-icons/tb";
 import { GiWeightLiftingUp } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 export const Pricing2 = () => (
   <div className="w-full py-8 lg:py-12">
@@ -70,7 +71,8 @@ export const Pricing2 = () => (
                   </div>
                 </div>
                 <Button className="gap-4 bg-blue-400">
-                  En savoir plus <MoveRight className="w-4 h-4" />
+                  <Link to="/massage-bien-etre">En savoir plus</Link>
+                  <MoveRight className="w-4 h-4" />
                 </Button>
               </div>
             </CardContent>
@@ -176,7 +178,8 @@ export const Pricing2 = () => (
                   </div>
                 </div>
                 <Button className="gap-4">
-                  En savoir plus <MoveRight className="w-4 h-4" />
+                  <Link to="mobilite-massage">En savoir plus</Link>
+                  <MoveRight className="w-4 h-4" />
                 </Button>
               </div>
             </CardContent>
@@ -231,7 +234,8 @@ export const Pricing2 = () => (
                   </div>
                 </div>
                 <Button className="gap-4">
-                  En savoir plus <MoveRight className="w-4 h-4" />
+                  <Link to="coaching-massage">En savoir plus</Link>
+                  <MoveRight className="w-4 h-4" />
                 </Button>
               </div>
             </CardContent>
