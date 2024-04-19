@@ -8,6 +8,7 @@ import {
 import { Layout } from "./layout/Layout";
 import { Home } from "./pages/Home";
 import { RenforcementDetail } from "./pages/services/RenforcementDetails";
+import { MobiliteDetails } from "./pages/services/MobiliteDetails";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
 
       <Route path="coaching-massage" element={<RenforcementDetail />} />
+      <Route path="mobilite-massage" element={<MobiliteDetails />} />
     </Route>
   )
 );

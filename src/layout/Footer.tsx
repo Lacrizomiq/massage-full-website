@@ -21,7 +21,7 @@ export const Footer = () => {
         },
         {
           title: "Mobilité",
-          href: "/dashboards",
+          href: "/mobilite-massage",
         },
         {
           title: "Renforcement",

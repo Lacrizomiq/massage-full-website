@@ -24,7 +24,7 @@ const components = [
   },
   {
     title: "Exercices de mobilité",
-    href: "/exercices-mobilite",
+    href: "/mobilite-massage",
     description: "Travail autour de l'amélioration de ta mobilité",
   },
   {
