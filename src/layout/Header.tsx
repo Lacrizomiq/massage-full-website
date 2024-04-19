@@ -1,7 +1,6 @@
-"use client";
-
 import * as React from "react";
 import { cn } from "@/lib/utils";
+import { Link } from "react-router-dom";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -12,25 +11,25 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-const components: { title: string; href: string; description: string }[] = [
+const components = [
   {
     title: "Massage sportif",
-    href: "#",
+    href: "/massage-sportif",
     description: "Massage sportif pour améliorer ta condition physique ",
   },
   {
     title: "Massage bien-être",
-    href: "#",
+    href: "/massage-bien-etre",
     description: "Massage bien-être pour te détendre",
   },
   {
     title: "Exercices de mobilité",
-    href: "#",
+    href: "/exercices-mobilite",
     description: "Travail autour de l'amélioration de ta mobilité",
   },
   {
     title: "Renforcement musculaire",
-    href: "#",
+    href: "/coaching-massage",
     description: "Coaching personnalisé",
   },
 ];
@@ -45,29 +44,24 @@ export function NavigationMenuHeader() {
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
-                  <a
-                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                    href="/"
+                  <Link
+                    className="flex flex-col justify-end w-full h-full p-6 no-underline rounded-md outline-none select-none bg-gradient-to-b from-muted/50 to-muted focus:shadow-md"
+                    to="/about-us"
                   >
-                    <div className="mb-2 mt-4 text-lg font-medium">
+                    <div className="mt-4 mb-2 text-lg font-medium">
                       Corentin et Max
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
                       Une équipe de deux masseurs et coachs sportifs passionnés
                       par leur métier.
                     </p>
-                  </a>
+                  </Link>
                 </NavigationMenuLink>
               </li>
               <ListItem href="#" title="Présentation">
                 Qui sommes-nous ? Découvres notre histoire et nos valeurs.
               </ListItem>
-              <ListItem href="#" title="Installation">
-                How to install dependencies and structure your app.
-              </ListItem>
-              <ListItem href="#" title="Typography">
-                Styles for headings, paragraphs, lists...etc
-              </ListItem>
+              {/* Autres ListItem adaptés si nécessaire */}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
@@ -79,7 +73,7 @@ export function NavigationMenuHeader() {
                 <ListItem
                   key={component.title}
                   title={component.title}
-                  href={component.href}
+                  to={component.href}
                 >
                   {component.description}
                 </ListItem>
@@ -100,23 +94,24 @@ export function NavigationMenuHeader() {
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
   React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
+>(({ className, title, children, to, ...props }, ref) => {
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a
+        <Link
           ref={ref}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
             className
           )}
+          to={to}
           {...props}
         >
           <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+          <p className="text-sm leading-snug line-clamp-2 text-muted-foreground">
             {children}
           </p>
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );

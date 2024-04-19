@@ -25,7 +25,7 @@ export const Footer = () => {
         },
         {
           title: "Renforcement",
-          href: "/recordings",
+          href: "/coaching-massage",
         },
       ],
     },
