@@ -10,10 +10,10 @@ export const MobiliteDetails = () => (
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
                 Préparez-vous à une expérience de massage optimale en intégrant
-                nos séances la mobilité.
+                à nos séances la mobilité.
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                En travaillant ces zones clés, vous vous offrez une préparation
+                En travaillant des zones clés, vous vous offrez une préparation
                 idéale pour un massage plus efficace et relaxant.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">

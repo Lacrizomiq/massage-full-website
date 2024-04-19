@@ -14,22 +14,22 @@ import {
 const components = [
   {
     title: "Massage sportif",
-    href: "/massage-sportif",
+    to: "/massage-sportif",
     description: "Massage sportif pour améliorer ta condition physique ",
   },
   {
     title: "Massage bien-être",
-    href: "/massage-bien-etre",
+    to: "/massage-bien-etre",
     description: "Massage bien-être pour te détendre",
   },
   {
-    title: "Exercices de mobilité",
-    href: "/mobilite-massage",
+    title: "Travaux de mobilité",
+    to: "/mobilite-massage",
     description: "Travail autour de l'amélioration de ta mobilité",
   },
   {
     title: "Renforcement musculaire",
-    href: "/coaching-massage",
+    to: "/coaching-massage",
     description: "Coaching personnalisé",
   },
 ];
@@ -58,7 +58,7 @@ export function NavigationMenuHeader() {
                   </Link>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="#" title="Présentation">
+              <ListItem to="#" title="Présentation">
                 Qui sommes-nous ? Découvres notre histoire et nos valeurs.
               </ListItem>
               {/* Autres ListItem adaptés si nécessaire */}
@@ -73,7 +73,7 @@ export function NavigationMenuHeader() {
                 <ListItem
                   key={component.title}
                   title={component.title}
-                  to={component.href}
+                  to={component.to}
                 >
                   {component.description}
                 </ListItem>
@@ -92,8 +92,8 @@ export function NavigationMenuHeader() {
 }
 
 const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
+  React.ElementRef<typeof Link>,
+  React.ComponentPropsWithoutRef<typeof Link>
 >(({ className, title, children, to, ...props }, ref) => {
   return (
     <li>
