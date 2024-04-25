@@ -154,7 +154,7 @@ export const Pricing2 = () => (
                     <div className="flex flex-col">
                       <p>Repérage des tensions musculaires</p>
                       <p className="text-sm text-muted-foreground">
-                        On va identifier les zones de tensions.
+                        On va identifier tes zones de tensions.
                       </p>
                     </div>
                   </div>
@@ -163,7 +163,7 @@ export const Pricing2 = () => (
                     <div className="flex flex-col">
                       <p>Préparation du corps au massage</p>
                       <p className="text-sm text-muted-foreground">
-                        Afin que le massage se déroule encore mieux
+                        Afin d'augmenter l'efficacité du massage.
                       </p>
                     </div>
                   </div>
@@ -226,7 +226,7 @@ export const Pricing2 = () => (
                   <div className="flex flex-row gap-4">
                     <Check className="w-4 h-4 mt-2 text-primary" />
                     <div className="flex flex-col">
-                      <p>Amélioration de la posture</p>
+                      <p>Amélioration de ta posture</p>
                       <p className="text-sm text-muted-foreground">
                         A travers des exercices de mobilité
                       </p>
