@@ -26,7 +26,7 @@ export const Testimonials = () => {
                         Meilleur décision de ma vie
                       </h3>
                       <p className="max-w-xs text-base text-muted-foreground">
-                        J'ai étais accompagner pendant plus de 6 mois sur la
+                        J'ai été accompagner pendant plus de 6 mois sur la
                         prestation de renforcement musculaire. 10kg de perdu sur
                         la balance et une amélioration de ma forme au quotidien
                         qui est visible par tous !
