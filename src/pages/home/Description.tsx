@@ -9,13 +9,13 @@ export const Description = () => (
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
-                Construisons ensemble ton corps de demain
+                Etablissons ensemble ton bien-être de demain
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Managing a small business today is already tough. Avoid further
-                complications by ditching outdated, tedious trade methods. Our
-                goal is to streamline SMB trade, making it easier and faster
-                than ever.
+                Nos massages et nos services sont conçues en fonction de chacun
+                afin de s'adapter aux mieux à tes besoins. Nous te transmettrons
+                les clés pour que tu puisses être en meilleure forme durablement
+                à travers notre pédagogie axé sur le partage.
               </p>
             </div>
           </div>

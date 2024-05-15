@@ -40,7 +40,7 @@ export const MobiliteDetails = () => (
                 flexibilité, favoriser la circulation sanguine, prévenir les
                 blessures et développer votre conscience corporel ce qui permet
                 à votre corps de recevoir les bienfaits du massage de manière
-                plus profonde et durable.
+                plus profonde et durable dans votre quotidien.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
                 Offrez-vous une expérience de massage inoubliable en intégrant
