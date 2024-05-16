@@ -1,8 +1,16 @@
 import { Separator } from "@/components/ui/separator";
+import { Link } from "react-router-dom";
+import { GoArrowLeft } from "react-icons/go";
 
 export const MobiliteDetails = () => (
   <>
-    <div className="w-full py-8 lg:py-12">
+    <Link
+      to="/"
+      className="flex items-center pt-8 pl-8 tracking-tighter text-left underline lg:max-w-xl font-regular"
+    >
+      <GoArrowLeft /> Retour à la page d'accueil
+    </Link>
+    <div className="w-full py-4 lg:py-8">
       <div className="container mx-auto">
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video"></div>
