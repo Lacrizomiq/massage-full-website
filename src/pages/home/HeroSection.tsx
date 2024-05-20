@@ -1,5 +1,4 @@
-import { PhoneCall } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import PhoneCallButton from "@/utils/PhoneCallButton";
 
 export const HeroSection = () => (
   <div className="w-full py-8 lg:py-12">
@@ -17,10 +16,7 @@ export const HeroSection = () => (
             </p>
           </div>
           <div className="flex flex-row gap-4">
-            <Button size="lg" className="gap-4" variant="outline">
-              Prendre rendez-vous
-              <PhoneCall className="w-4 h-4" />
-            </Button>
+            <PhoneCallButton />
           </div>
         </div>
         <div className="grid grid-cols-2 gap-8">

@@ -23,7 +23,7 @@ export const Testimonials = () => {
                   <div className="flex flex-col gap-4">
                     <div className="flex flex-col">
                       <h3 className="text-xl tracking-tight">
-                        Meilleur décision de ma vie
+                        La meilleure décision de ma vie
                       </h3>
                       <p className="max-w-xs text-base text-muted-foreground">
                         J'ai été accompagner pendant plus de 6 mois sur la

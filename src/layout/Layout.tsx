@@ -1,7 +1,7 @@
 import { NavigationMenuHeader } from "./Header";
 import { Outlet } from "react-router";
 import { Footer } from "./Footer";
-import ScrollToTop from "@/components/ScrollToTop";
+import ScrollToTop from "@/utils/ScrollToTop";
 
 export const Layout: React.FC = () => {
   return (

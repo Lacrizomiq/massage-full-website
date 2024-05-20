@@ -9,6 +9,8 @@ import { Layout } from "./layout/Layout";
 import { Home } from "./pages/Home";
 import { RenforcementDetail } from "./pages/services/RenforcementDetails";
 import { MobiliteDetails } from "./pages/services/MobiliteDetails";
+import { MassageBienEtre } from "./pages/services/MassageBienEtre";
+import { MassageSportif } from "./pages/services/MassageSportif";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +19,8 @@ const router = createBrowserRouter(
 
       <Route path="coaching-massage" element={<RenforcementDetail />} />
       <Route path="mobilite-massage" element={<MobiliteDetails />} />
+      <Route path="massage-bien-etre" element={<MassageBienEtre />} />
+      <Route path="massage-sportif" element={<MassageSportif />} />
     </Route>
   )
 );

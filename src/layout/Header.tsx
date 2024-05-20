@@ -13,14 +13,14 @@ import {
 
 const components = [
   {
-    title: "Massage sportif",
-    to: "/massage-sportif",
-    description: "Massage sportif pour améliorer ta condition physique ",
-  },
-  {
     title: "Massage bien-être",
     to: "/massage-bien-etre",
     description: "Massage bien-être pour te détendre",
+  },
+  {
+    title: "Massage sportif",
+    to: "/massage-sportif",
+    description: "Massage sportif pour améliorer ta condition physique ",
   },
   {
     title: "Travaux de mobilité",

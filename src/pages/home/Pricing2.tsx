@@ -48,7 +48,7 @@ export const Pricing2 = () => (
                       <div className="flex flex-col">
                         <p>Echange préalable au massage</p>
                         <p className="text-sm text-muted-foreground">
-                          Afin de mieux vous connaitre.
+                          Afin de mieux te connaitre.
                         </p>
                       </div>
                     </div>
@@ -111,7 +111,7 @@ export const Pricing2 = () => (
                       <div className="flex flex-col">
                         <p>Echange préalable au massage</p>
                         <p className="text-sm text-muted-foreground">
-                          Afin de mieux vous connaitre.
+                          Afin de mieux te connaitre.
                         </p>
                       </div>
                     </div>
