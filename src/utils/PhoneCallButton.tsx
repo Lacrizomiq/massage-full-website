@@ -5,11 +5,14 @@ import { useEffect } from "react";
 
 const PhoneCallButton: React.FC = () => {
   const phoneNumbers = [
-    process.env.REACT_APP_PHONE_NUMBER_1 || "",
-    process.env.REACT_APP_PHONE_NUMBER_2 || "",
+    import.meta.env.VITE_PHONE_NUMBER_1 || "",
+    import.meta.env.VITE_PHONE_NUMBER_2 || "",
   ];
 
   useEffect(() => {
+    // Vérifiez que les numéros de téléphone sont bien définis
+    console.log("VITE_PHONE_NUMBER_1:", import.meta.env.VITE_PHONE_NUMBER_1);
+    console.log("VITE_PHONE_NUMBER_2:", import.meta.env.VITE_PHONE_NUMBER_2);
     console.log("Phone numbers:", phoneNumbers);
   }, [phoneNumbers]);
 
@@ -21,8 +24,8 @@ const PhoneCallButton: React.FC = () => {
   const handleButtonClick = () => {
     const phoneNumber = getRandomPhoneNumber();
     if (phoneNumber) {
+      console.log("Calling phone number:", phoneNumber);
       window.location.href = `tel:${phoneNumber}`;
-      console.log(`Calling ${phoneNumber}`);
     } else {
       console.error("Phone number is not defined");
     }
