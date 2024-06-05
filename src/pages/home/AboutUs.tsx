@@ -31,8 +31,10 @@ export const AboutUs = () => (
                 méditation et de pleine conscience dans ses séances de massage,
                 de mobilité ainsi que de renforcement. Il guide ses clients vers
                 un équilibre harmonieux entre corps et esprit, favorisant la
-                relaxation, la flexibilité, et le bien-être global. Ses
-                massages, ses techniques de mobilité et de renforcement
+                relaxation, la flexibilité, et le bien-être global.
+              </p>
+              <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
+                Ses massages, ses techniques de mobilité et de renforcement
                 contribuent à réduire le stress, à améliorer la qualité de vie
                 de ses clients ainsi que leur performance sportive.
               </p>
