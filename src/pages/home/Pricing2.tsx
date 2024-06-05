@@ -75,7 +75,7 @@ export const Pricing2 = () => (
               </CardContent>
             </div>
             <div className="p-4">
-              <Button className="w-full gap-4 bg-blue-400">
+              <Button className="w-full gap-4 bg-caramel">
                 <Link
                   to="/massage-bien-etre"
                   className="flex items-center justify-center w-full"

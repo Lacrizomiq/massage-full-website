@@ -55,13 +55,13 @@ export function NavigationMenuHeader() {
                       Une équipe de deux masseurs et coachs sportifs passionnés
                       par leur métier.
                     </p>
+                    <p className="text-sm leading-tight text-muted-foreground">
+                      Cliquer ici pour en savoir plus !
+                    </p>
                   </Link>
                 </NavigationMenuLink>
               </li>
-              <ListItem to="#" title="Présentation">
-                Qui sommes-nous ? Découvres notre histoire et nos valeurs.
-              </ListItem>
-              {/* Autres ListItem adaptés si nécessaire */}
+              {/* */}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
