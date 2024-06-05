@@ -28,12 +28,13 @@ export const AboutUs = () => (
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
                 Enrichi par une expérience unique de trois mois avec des moines
                 bouddhistes en Chine, Corentin intègre des éléments de
-                méditation et de pleine conscience dans ses séances de massage
-                bien-être et de mobilité. Il guide ses clients vers un équilibre
-                harmonieux entre corps et esprit, favorisant la relaxation, la
-                flexibilité, et le bien-être global. Ses massages et ses
-                techniques de mobilité contribuent à réduire le stress et à
-                améliorer la qualité de vie de ses clients.
+                méditation et de pleine conscience dans ses séances de massage,
+                de mobilité ainsi que de renforcement. Il guide ses clients vers
+                un équilibre harmonieux entre corps et esprit, favorisant la
+                relaxation, la flexibilité, et le bien-être global. Ses
+                massages, ses techniques de mobilité et de renforcement
+                contribuent à réduire le stress, à améliorer la qualité de vie
+                de ses clients ainsi que leur performance sportive.
               </p>
             </div>
           </div>
@@ -53,9 +54,9 @@ export const AboutUs = () => (
                 Max est un coach sportif expérimenté avec plusieurs années de
                 pratique dans le domaine du coaching et du bodybuilding. Sa
                 profonde connaissance de la biomécanique et de l'anatomie
-                musculaire lui permet de proposer des massages sportifs ciblés
-                et efficaces, ainsi que des séances de renforcement musculaire
-                personnalisées.
+                musculaire lui permet de proposer des massages ciblés, des
+                séances de mobilité efficaces ainsi que des séances de
+                renforcement musculaire performantes.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
                 Passionné par le développement physique et la performance, Max
