@@ -17,17 +17,20 @@ export const MassageBienEtre = () => (
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
-                Préparez-vous à une expérience de massage optimale en intégrant
-                à nos séances la mobilité.
+                Qu'est-ce que le massage bien-être ?
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                En travaillant des zones clés, vous vous offrez une préparation
-                idéale pour un massage plus efficace et relaxant.
+                Le massage bien-être, aussi connu sous le nom de massage de
+                relaxation ou massage holistique, est une pratique visant à
+                améliorer la santé générale et le bien-être psychologique d'une
+                personne à travers diverses techniques de massage.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Une meilleure mobilité favorise une posture optimale, détend les
-                muscles et réduit les tensions, offrant ainsi une toile de fond
-                idéale pour profiter pleinement des bienfaits du massage.
+                Contrairement au massage sportif, qui est orienté vers
+                l'amélioration des performances et la récupération physique des
+                sportifs, le massage bien-être se concentre sur la détente
+                globale, la réduction du stress et l'amélioration de la qualité
+                de vie.
               </p>
             </div>
           </div>
@@ -41,18 +44,18 @@ export const MassageBienEtre = () => (
           <div className="flex flex-col flex-1 gap-4">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
-                Nos sessions personnalisées sont conçues pour vous.
+                Nos massages bien-être sont conçues pour toi.
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Nos sessions personnalisées sont conçues pour améliorer la
-                flexibilité, favoriser la circulation sanguine, prévenir les
-                blessures et développer votre conscience corporel ce qui permet
-                à votre corps de recevoir les bienfaits du massage de manière
-                plus profonde et durable dans votre quotidien.
+                Il s'adresse à toute personne cherchant à réduire son niveau de
+                stress, à améliorer son sommeil, ou simplement à se faire
+                plaisir avec un moment de détente profonde.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Offrez-vous une expérience de massage inoubliable en intégrant
-                la mobilité dans cette prestation.
+                Le massage bien-être peut également être bénéfique afin de
+                renforcer son système immunitaires, de soulager les douleurs
+                musculaires et articulaires, ou encore de favoriser la
+                circulation sanguine.
               </p>
             </div>
           </div>

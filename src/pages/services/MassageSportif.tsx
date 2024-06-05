@@ -17,20 +17,20 @@ export const MassageSportif = () => (
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
-                Qu'est-ce que le massage bien-être ?
+                Qu'est-ce que le massage sportif ?
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Le massage bien-être, aussi connu sous le nom de massage de
-                relaxation ou massage holistique, est une pratique visant à
-                améliorer la santé générale et le bien-être psychologique d'une
-                personne à travers diverses techniques de massage.
+                Le massage sportif est une technique de massage qui est
+                spécialement conçue pour aider les athlètes à améliorer leur
+                performance, à récupérer plus rapidement après un entraînement
+                ou une compétition, et à prévenir les blessures.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Contrairement au massage sportif, qui est orienté vers
-                l'amélioration des performances et la récupération physique des
-                sportifs, le massage bien-être se concentre sur la détente
-                globale, la réduction du stress et l'amélioration de la qualité
-                de vie.
+                Il peut être appliqué avant, pendant, ou après des activités
+                sportives. Ce type de massage cible les muscles les plus
+                sollicités durant les exercices physiques, offrant une approche
+                personnalisée qui répond aux besoins spécifiques de chaque
+                sportif.
               </p>
             </div>
           </div>
@@ -44,18 +44,17 @@ export const MassageSportif = () => (
           <div className="flex flex-col flex-1 gap-4">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
-                Nos massages bien-être sont conçues pour toi.
+                Nos massages sportif sont conçues pour toi.
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Il s'adresse à toute personne cherchant à réduire son niveau de
-                stress, à améliorer son sommeil, ou simplement à se faire
-                plaisir avec un moment de détente profonde.
+                Nos massages sportifs sont conçus pour améliorer la performance,
+                la récupération, réduire la fatigue, prévenir les blessures,
+                soulager les douleurs musculaires et améliorer ta concentration.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Le massage bien-être peut également être bénéfique afin de
-                renforcer son système immunitaires, de soulager les douleurs
-                musculaires et articulaires, ou encore de favoriser la
-                circulation sanguine.
+                Le massage sportif peut être bénéfique pour tous les types
+                d'athlètes, des professionnels aux amateurs actifs, et est
+                adapté à une grande variété de disciplines sportives.
               </p>
             </div>
           </div>
