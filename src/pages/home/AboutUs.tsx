@@ -13,7 +13,13 @@ export const AboutUs = () => (
     <div className="w-full py-4 lg:py-8">
       <div className="container mx-auto">
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
-          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video"></div>
+          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
+            <img
+              src="/coco-presentation.jpg"
+              alt="Corentin"
+              className="rounded-md shadow-lg"
+            />
+          </div>
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
@@ -22,8 +28,8 @@ export const AboutUs = () => (
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
                 Corentin est un coach sportif polyvalent avec une forte
                 inclinaison pour la spiritualité et le développement personnel.
-                Pratiquant de parkour passionné, il dirige également une
-                association de combat artistique de sabre laser.
+                Pratiquant de parkour passionné, il dirige également une école
+                de combat artistique de sabre laser.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
                 Enrichi par une expérience unique de trois mois avec des moines
@@ -71,7 +77,13 @@ export const AboutUs = () => (
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground"></p>
             </div>
           </div>
-          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video"></div>
+          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
+            <img
+              src="/max-presentation.jpg"
+              alt="Max"
+              className="rounded-md shadow-lg"
+            />
+          </div>
         </div>
       </div>
     </div>
