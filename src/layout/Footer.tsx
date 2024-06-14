@@ -13,11 +13,11 @@ export const Footer = () => {
       items: [
         {
           title: "Massage bien-être",
-          href: "/reports",
+          href: "/massage-bien-etre",
         },
         {
           title: "Massage sportif",
-          href: "/statistics",
+          href: "/massage-sportif",
         },
         {
           title: "Mobilité",
@@ -35,7 +35,7 @@ export const Footer = () => {
       items: [
         {
           title: "A propos de nous",
-          href: "/about",
+          href: "/about-us",
         },
         {
           title: "Nous contacter",

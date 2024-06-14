@@ -138,7 +138,7 @@ export const Pricing2 = () => (
               </CardContent>
             </div>
             <div className="p-4">
-              <Button className="w-full gap-4">
+              <Button className="w-full gap-4 bg-caramel">
                 <Link
                   to="/massage-sportif"
                   className="flex items-center justify-center w-full"
@@ -201,7 +201,7 @@ export const Pricing2 = () => (
               </CardContent>
             </div>
             <div className="p-4">
-              <Button className="w-full gap-4">
+              <Button className="w-full gap-4 bg-caramel">
                 <Link
                   to="/mobilite-massage"
                   className="flex items-center justify-center w-full"
@@ -269,7 +269,7 @@ export const Pricing2 = () => (
               </CardContent>
             </div>
             <div className="p-4">
-              <Button className="w-full gap-4">
+              <Button className="w-full gap-4 bg-caramel">
                 <Link
                   to="/coaching-massage"
                   className="flex items-center justify-center w-full"
