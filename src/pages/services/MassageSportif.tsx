@@ -64,7 +64,13 @@ export const MassageSportif = () => (
               </p>
             </div>
           </div>
-          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video"></div>
+          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
+            <img
+              src="/IMG_9702.jpg"
+              alt="massage sportif"
+              className="object-cover w-full h-full rounded-md shadow-lg"
+            />
+          </div>
         </div>
       </div>
     </div>
