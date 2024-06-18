@@ -17,7 +17,7 @@ export const AboutUs = () => (
             <img
               src="/coco-presentation.jpg"
               alt="Corentin"
-              className="rounded-md shadow-lg"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
@@ -79,9 +79,9 @@ export const AboutUs = () => (
           </div>
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <img
-              src="/max-presentation.jpg"
+              src="/max-presentation.png"
               alt="Max"
-              className="rounded-md shadow-lg"
+              className="object-cover object-top w-full h-full shadow-xl object rounded-xl"
             />
           </div>
         </div>
