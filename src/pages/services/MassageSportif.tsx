@@ -17,7 +17,7 @@ export const MassageSportif = () => (
             <img
               src="/IMG_9700.jpg"
               alt="massage sportif"
-              className="object-cover w-full h-full rounded-md shadow-lg"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
@@ -68,7 +68,7 @@ export const MassageSportif = () => (
             <img
               src="/IMG_9702.jpg"
               alt="massage sportif"
-              className="object-cover w-full h-full rounded-md shadow-lg"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>
         </div>
