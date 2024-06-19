@@ -33,10 +33,9 @@ export const Description = () => (
                 Des professionnels sérieux et passionés
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Managing a small business today is already tough. Avoid further
-                complications by ditching outdated, tedious trade methods. Our
-                goal is to streamline SMB trade, making it easier and faster
-                than ever.
+                Cumulant plusieurs décennies d'expérience dans différents
+                domaines du sport et du bien-être, nous avons toutes les armes
+                pour t'accompagner dans ta quête de bien-être.
               </p>
             </div>
           </div>
