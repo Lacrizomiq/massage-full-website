@@ -20,9 +20,27 @@ export const HeroSection = () => (
           </div>
         </div>
         <div className="grid grid-cols-2 gap-8">
-          <div className="rounded-md bg-muted aspect-square"></div>
-          <div className="row-span-2 rounded-md bg-muted"></div>
-          <div className="rounded-md bg-muted aspect-square"></div>
+          <div className="rounded-md bg-muted aspect-square">
+            <img
+              src="/max-hero.png"
+              alt="mobilite"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
+            />
+          </div>
+          <div className="row-span-2 rounded-md bg-muted">
+            <img
+              src="/max-coco-hero.png"
+              alt="mobilite"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
+            />
+          </div>
+          <div className="rounded-md bg-muted aspect-square">
+            <img
+              src="/coco-hero.png"
+              alt="mobilite"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
+            />
+          </div>
         </div>
       </div>
     </div>

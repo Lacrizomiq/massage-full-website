@@ -39,7 +39,13 @@ export const Description = () => (
               </p>
             </div>
           </div>
-          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video"></div>
+          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
+            <img
+              src="/coco-max-description.png"
+              alt="mobilite"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
+            />
+          </div>
         </div>
       </div>
     </div>
