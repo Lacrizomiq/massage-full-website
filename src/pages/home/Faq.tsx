@@ -92,6 +92,87 @@ export const Faq = () => (
               </AccordionContent>
             </AccordionItem>
           </Accordion>
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value={"index-"}>
+              <AccordionTrigger>
+                Est-il possible de réaliser une séance de massage bien-être en
+                couple ?
+              </AccordionTrigger>
+              <AccordionContent>
+                <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left text-muted-foreground">
+                  Nos massages bien-être sont conçus pour être réalisés en
+                  couple, avec nos deux masseurs. N'hesitez pas à nous contacter
+                  pour plus de détails.
+                </p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value={"index-"}>
+              <AccordionTrigger>
+                Où se déroule le renforcement musculaire ?
+              </AccordionTrigger>
+              <AccordionContent>
+                <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left text-muted-foreground">
+                  Dans le cadre du service de renforcement musculaire, les
+                  exercices de renforcement se feront dans une salle de sport
+                  localisé à Isle sur la Sorgue. N'hésitez pas à nous contacter
+                  pour plus de détails.
+                </p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value={"index-"}>
+              <AccordionTrigger>
+                A qui s'adresse le service de maintien de l'autonomie et de la
+                mobilité ?
+              </AccordionTrigger>
+              <AccordionContent>
+                <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left text-muted-foreground">
+                  Ce service est principalement conçu pour les personnes
+                  seniors, qui cherchent à maintenir leur autonomie et leur
+                  mobilité en travaillant dans une ambiance conviviale,
+                  motivante et sécurisée.
+                </p>
+                <br />
+                <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left text-muted-foreground">
+                  Nous proposons 2 séances par semaine, avec une durée de 1
+                  heure et à horaires fixes.
+                </p>
+                <br />
+                <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left text-muted-foreground">
+                  Si vous n'êtes pas seniors mais que vous êtes à la recherche
+                  de ce service, n'hésitez pas à nous contacter afin que nous
+                  vous orientions vers un service adapté à vos besoins.
+                </p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value={"index-"}>
+              <AccordionTrigger>
+                Comment se déroule les séances de cardio training ?
+              </AccordionTrigger>
+              <AccordionContent>
+                <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left text-muted-foreground">
+                  Nous proposons 2 séances par semaine, avec une durée de 1
+                  heure et à horaires fixes.
+                </p>
+                <br />
+                <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left text-muted-foreground">
+                  Nous vous recevrons dans nos locaux, avec tout l'equipement
+                  nécessaire pour réaliser votre séance.
+                </p>
+                <br />
+                <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left text-muted-foreground">
+                  Un coach sportif d'experience vous accompagnera dans votre
+                  séance, pour vous aider à atteindre vos objectifs et vous
+                  aider à vous dépasser.
+                </p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </div>
     </div>

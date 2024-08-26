@@ -32,6 +32,16 @@ const components = [
     to: "/coaching-massage",
     description: "Coaching personnalisé",
   },
+  {
+    title: "Cardio training",
+    to: "small-group",
+    description: "Cardio training en petit groupe",
+  },
+  {
+    title: "Autonomie et mobilité",
+    to: "autonomie-mobilite",
+    description: "Maintien de l'autonomie et mobilité",
+  },
 ];
 
 export function NavigationMenuHeader() {
@@ -83,7 +93,7 @@ export function NavigationMenuHeader() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            Nous contacter
+            <Link to="/contact">Nous contacter</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>

@@ -11,7 +11,10 @@ import { RenforcementDetail } from "./pages/services/RenforcementDetails";
 import { MobiliteDetails } from "./pages/services/MobiliteDetails";
 import { MassageBienEtre } from "./pages/services/MassageBienEtre";
 import { MassageSportif } from "./pages/services/MassageSportif";
+import { SmallGroup } from "./pages/services/SmallGroup";
+import { AutonomieMobilite } from "./pages/services/AutonomieMobilite";
 import { AboutUs } from "./pages/home/AboutUs";
+import { ContactPage } from "./pages/home/Contact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +25,9 @@ const router = createBrowserRouter(
       <Route path="mobilite-massage" element={<MobiliteDetails />} />
       <Route path="massage-bien-etre" element={<MassageBienEtre />} />
       <Route path="massage-sportif" element={<MassageSportif />} />
+      <Route path="small-group" element={<SmallGroup />} />
+      <Route path="autonomie-mobilite" element={<AutonomieMobilite />} />
+      <Route path="contact" element={<ContactPage />} />
     </Route>
   )
 );

@@ -48,6 +48,14 @@ export const Footer = () => {
           title: "Renforcement",
           href: "coaching-massage",
         },
+        {
+          title: "Cardio training",
+          href: "small-group",
+        },
+        {
+          title: "Autonomie et mobilité",
+          href: "autonomie-mobilite",
+        },
       ],
     },
     {

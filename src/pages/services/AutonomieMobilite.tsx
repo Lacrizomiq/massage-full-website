@@ -2,7 +2,7 @@ import { Separator } from "@/components/ui/separator";
 import { GoArrowLeft } from "react-icons/go";
 import { Link } from "react-router-dom";
 
-export const SmallGroup = () => (
+export const AutonomieMobilite = () => (
   <>
     <Link
       to="/"
@@ -17,15 +17,19 @@ export const SmallGroup = () => (
           <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
-                Qu'est-ce que le cardio training ?
+                Qu'est-ce que le maintien de l'autonomie et de la mobilité ?
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Boostez votre forme physique avec nos sessions de cardio
-                training en petit groupe de 5 personnes, deux fois par semaine.
+                Préservez votre mobilité et votre autonomie avec nos séances
+                spécialisées, dédiées aux seniors et à toutes personnes en quête
+                de bien-être.
               </p>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Chaque session de 1 heure est conçue pour maximiser votre
-                endurance, brûler des calories et renforcer votre cœur.
+                À travers des exercices de mobilité doux et adaptés, ces
+                sessions en petit groupe de jusqu'à 5 personnes, d'une durée
+                d'une heure, sont conçues pour améliorer l'équilibre, la
+                flexibilité et la force, afin de vous permettre de rester actif
+                et indépendant au quotidien.
               </p>
             </div>
           </div>
@@ -42,9 +46,10 @@ export const SmallGroup = () => (
                 Des coachs sportifs d'experience pour vous accompagner.
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                Entraînez-vous dans une ambiance conviviale et motivante, où
-                chaque participant bénéficie d'un coach disponible pour vous
-                aider à atteindre vos objectifs.
+                Travaillez votre mobilité dans une ambiance conviviale et
+                motivante, où chaque participant bénéficie d'un coach disponible
+                pour vous aider à atteindre vos objectifs dans un environnement
+                sécurisé.
               </p>
             </div>
           </div>
