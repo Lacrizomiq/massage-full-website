@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Instagram, Youtube } from "lucide-react";
 
@@ -98,7 +97,7 @@ export const Footer = () => {
             </div>
             <div className="flex flex-col gap-4">
               <div className="text-sm text-background/75">
-                <p>Adresse,</p>
+                <p>70 rue de la République</p>
                 <p>Lagnes,</p>
                 <p>84800</p>
               </div>

@@ -6,10 +6,13 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { TbMassage } from "react-icons/tb";
 import { TbYoga } from "react-icons/tb";
 import { GiWeightLiftingUp } from "react-icons/gi";
+import { FaRunning } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 
 export const Pricing2 = () => (
@@ -272,6 +275,101 @@ export const Pricing2 = () => (
               <Button className="w-full gap-4 bg-caramel">
                 <Link
                   to="/coaching-massage"
+                  className="flex items-center justify-center w-full"
+                >
+                  En savoir plus
+                  <MoveRight className="w-4 h-4 ml-2" />
+                </Link>
+              </Button>
+            </div>
+          </Card>
+          <Card className="flex flex-col w-full rounded-md shadow-2xl">
+            <div className="flex flex-col flex-grow">
+              <CardHeader>
+                <CardTitle>
+                  <span className="flex flex-row items-center gap-4 font-normal">
+                    <FaRunning /> Cardio training en small groupe
+                  </span>
+                </CardTitle>
+                <CardDescription>
+                  Séances de cardio training en petit groupe. <br />
+                  Les séances durent 1h, 2 fois par semaine sur des créneaux
+                  défini en avance.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="flex-grow">
+                <div className="flex flex-col justify-start gap-8">
+                  <div className="flex flex-row justify-start gap-4">
+                    <Tabs defaultValue="seance" className="w-[400px]">
+                      <TabsList>
+                        <TabsTrigger value="seance">Par séance</TabsTrigger>
+                        <TabsTrigger value="mois">Par mois</TabsTrigger>
+                        <TabsTrigger value="trimestre">
+                          Par trimestre
+                        </TabsTrigger>
+                      </TabsList>
+                      <TabsContent value="seance" className="flex flex-col">
+                        <p className="flex flex-row items-center gap-2 px-8 pt-2 text-xl">
+                          <span className="text-4xl">20 €</span>
+                          <span className="text-sm text-muted-foreground">
+                            / séance
+                          </span>
+                        </p>
+                      </TabsContent>
+                      <TabsContent value="mois">
+                        <p className="flex flex-row items-center gap-2 px-8 pt-2 text-xl ">
+                          <span className="text-4xl">150 €</span>
+                          <span className="text-sm text-muted-foreground">
+                            / mois
+                          </span>
+                        </p>
+                      </TabsContent>
+                      <TabsContent value="trimestre">
+                        <p className="flex flex-row items-center gap-2 px-8 pt-2 text-xl ">
+                          <span className="text-4xl">350 €</span>
+                          <span className="text-sm text-muted-foreground">
+                            / trimestre
+                          </span>
+                        </p>
+                      </TabsContent>
+                    </Tabs>
+                  </div>
+                  <div className="flex flex-col justify-start gap-4">
+                    <div className="flex flex-row gap-4">
+                      <Check className="w-4 h-4 mt-2 text-primary" />
+                      <div className="flex flex-col">
+                        <p>Cardio training en petit groupe</p>
+                        <p className="text-sm text-muted-foreground">
+                          Afin de perdre du poids ou travailler ton cardio.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-row gap-4">
+                      <Check className="w-4 h-4 mt-2 text-primary" />
+                      <div className="flex flex-col">
+                        <p>Un coach sportif d'experience</p>
+                        <p className="text-sm text-muted-foreground">
+                          Afin de te motiver et de t'aider à progresser.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-row gap-4">
+                      <Check className="w-4 h-4 mt-2 text-primary" />
+                      <div className="flex flex-col">
+                        <p>En petit groupe</p>
+                        <p className="text-sm text-muted-foreground">
+                          Pour que l'accompagnement soit adapté à tes objectifs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </div>
+            <div className="p-4">
+              <Button className="w-full gap-4 bg-caramel">
+                <Link
+                  to="/massage-sportif"
                   className="flex items-center justify-center w-full"
                 >
                   En savoir plus
