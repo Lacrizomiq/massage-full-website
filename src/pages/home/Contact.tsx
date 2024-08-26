@@ -1,7 +1,6 @@
 // pages/Contact.tsx
 
 import ContactForm from "./ContactForm";
-import { Separator } from "@/components/ui/separator";
 
 export const ContactPage = () => {
   return (
