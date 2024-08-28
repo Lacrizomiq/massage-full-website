@@ -98,10 +98,11 @@ export const Footer = () => {
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex flex-col items-start gap-8">
             <div className="flex flex-col gap-2">
-              <h2 className="text-3xl tracking-tighter font-regular md:text-5xl">
-                2M Studio
-              </h2>
-              <p className="text-lg text-background/75">Massage et mobilité</p>
+              <img
+                src="/logo-full.png"
+                alt="logo"
+                className="w-[300px] h-[126px]"
+              />
             </div>
             <div className="flex flex-col gap-4">
               <div className="text-sm text-background/75">
