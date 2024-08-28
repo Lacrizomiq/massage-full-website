@@ -75,5 +75,32 @@ export const MassageBienEtre = () => (
         </div>
       </div>
     </div>
+    <div className="w-full py-4 lg:py-8">
+      <div className="container mx-auto">
+        <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
+          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
+            <img
+              src="/duo.png"
+              alt="massage paire"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
+            />
+          </div>
+          <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
+            <div className="flex flex-col gap-2">
+              <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
+                Envie de partager votre massage bien-être avec votre partenaire
+                ?
+              </h2>
+              <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
+                Nos massages bien-être sont conçus pour être réalisés en paire
+                avec votre partenaire. Offrez-vous une expérience de massage
+                inoubliable en couple ou entre amis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <Separator />
   </>
 );
