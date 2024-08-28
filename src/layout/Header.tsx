@@ -46,17 +46,19 @@ const components = [
 
 export function NavigationMenuHeader() {
   return (
-    <div className="flex flex-col items-center justify-between px-6 space-y-4 md:px-24 md:flex-col md:space-y-4 lg:flex-row lg:space-y-0">
+    <div className="flex flex-col items-center justify-between px-6 space-y-4 md:justify-center md:items-center md:px-24 md:flex-col md:space-y-4 lg:flex-row lg:space-y-0">
       <div className="py-4">
-        <img
-          src="/logo.png"
-          alt="logo"
-          className="w-[110px] h-[120px] mx-auto md:mx-auto lg:mx-0"
-        />
+        <Link to="/">
+          <img
+            src="/logo.png"
+            alt="logo"
+            className="w-[110px] h-[120px] mx-auto md:mx-auto lg:mx-0"
+          />
+        </Link>
       </div>
-      <div className="w-full md:w-auto">
+      <div className="w-full md:w-auto md:justify-center md:items-center">
         <NavigationMenu>
-          <NavigationMenuList className="flex flex-row md:flex-row md:space-x-4 md:space-y-0">
+          <NavigationMenuList className="flex flex-row items-center justify-center md:items-center md:justify-center md:flex-row md:space-x-4 md:space-y-0">
             <NavigationMenuItem>
               <NavigationMenuTrigger>Qui sommes-nous ?</NavigationMenuTrigger>
               <NavigationMenuContent>

@@ -16,7 +16,7 @@ export const MobiliteDetails = () => (
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <img
               src="/mobilite1.png"
-              alt="mobilite"
+              alt="Mobilité massage"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>
@@ -64,8 +64,8 @@ export const MobiliteDetails = () => (
           </div>
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <img
-              src="/mobilite2.png"
-              alt="mobilite"
+              src="/mobilite-massage.png"
+              alt="Mobilité massage"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>
