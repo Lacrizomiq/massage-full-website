@@ -78,7 +78,7 @@ export const Footer = () => {
     {
       name: "Instagram",
       icon: Instagram,
-      url: "https://www.instagram.com/votre_compte",
+      url: "https://www.instagram.com/2m.studio84",
     },
     {
       name: "TikTok",

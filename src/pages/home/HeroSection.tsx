@@ -23,21 +23,21 @@ export const HeroSection = () => (
           <div className="rounded-md bg-muted aspect-square">
             <img
               src="/max-hero.png"
-              alt="mobilite"
+              alt="photo presentation max"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>
           <div className="row-span-2 rounded-md bg-muted">
             <img
               src="/max-coco-hero.png"
-              alt="mobilite"
+              alt="photo presentation coco et max"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>
           <div className="rounded-md bg-muted aspect-square">
             <img
               src="/coco-hero.png"
-              alt="mobilite"
+              alt="photo presentation coco"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>

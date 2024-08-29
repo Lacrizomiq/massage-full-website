@@ -1,6 +1,6 @@
 // pages/Contact.tsx
 
-import ContactForm from "./ContactForm";
+import { FaMobile, FaPhone } from "react-icons/fa";
 
 export const ContactPage = () => {
   return (
@@ -12,11 +12,14 @@ export const ContactPage = () => {
         {/* Section Adresse et Carte */}
         <div>
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <img
-              src="/maps.png"
-              alt="Localisation de notre entreprise"
-              className="w-full h-auto"
-            />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2875.1941206419106!2d5.1146085!3d43.8932461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ca099d7e6fcc03%3A0xebe27251b047bce4!2s2M%20Studio!5e0!3m2!1sfr!2sfr!4v1724964846719!5m2!1sfr!2sfr"
+              width="600"
+              height="450"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
           <div className="mt-6">
             <h2 className="text-2xl font-semibold">Notre Adresse</h2>
@@ -28,29 +31,51 @@ export const ContactPage = () => {
               France
             </p>
             <a
-              href="https://www.google.com/maps"
+              href="https://maps.app.goo.gl/yK4VaQq5dQHNFEma9"
               target="_blank"
               className="inline-block px-4 py-2 mt-4 text-white bg-blue-600 rounded-lg hover:bg-blue-700"
               rel="noopener noreferrer"
             >
-              Obtenir des directions
+              Liens vers Google Maps
             </a>
           </div>
         </div>
 
-        {/* Section Formulaire de Contact */}
-        <h1 className="mb-8 text-3xl font-bold text-center md:text-4xl">
-          Nous Contacter
-        </h1>
+        {/* Section Numéros de Téléphone */}
         <div>
-          <h2 className="text-2xl font-semibold">Envoyez-nous un message</h2>
-          <p className="mt-2 mb-6 text-lg text-muted-foreground">
-            Vous avez des questions ou souhaitez plus d'informations ?
-            Remplissez le formulaire ci-dessous.
-          </p>
-          <div className="p-6 rounded-lg shadow-lg bg-gray-50">
-            <ContactForm />
+          <h2 className="mb-8 text-3xl font-bold text-center md:text-4xl">
+            Nous Contacter
+          </h2>
+          <div className="space-y-6">
+            <div className="flex items-center space-x-4">
+              <FaMobile className="text-4xl text-blue-600" />
+              <div>
+                <h3 className="text-xl font-semibold">Corentin</h3>
+                <a
+                  href="tel:+33490000000"
+                  className="text-lg text-blue-600 hover:underline"
+                >
+                  +33 4 90 00 00 00
+                </a>
+              </div>
+            </div>
+            <div className="flex items-center space-x-4">
+              <FaMobile className="text-4xl text-blue-600" />
+              <div>
+                <h3 className="text-xl font-semibold">Max</h3>
+                <a
+                  href="tel:+33600000000"
+                  className="text-lg text-blue-600 hover:underline"
+                >
+                  +33 6 00 00 00 00
+                </a>
+              </div>
+            </div>
           </div>
+          <p className="mt-6 text-lg text-muted-foreground">
+            N'hésitez pas à nous appeler pour toute question ou pour prendre
+            rendez-vous. Nous sommes à votre disposition pour vous aider.
+          </p>
         </div>
       </div>
     </section>
