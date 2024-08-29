@@ -370,7 +370,7 @@ export const Pricing2 = () => (
               </CardContent>
             </div>
             <div className="p-4">
-              <Button className="w-full gap-4 bg-caramel">
+              <Button className="w-full gap-4 bg-[#b0c985]">
                 <Link
                   to="/small-group"
                   className="flex items-center justify-center w-full"

@@ -93,7 +93,7 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className="w-full py-8 bg-caramel lg:py-12 text-background">
+    <footer className="w-full py-8 bg-[#b0c985] lg:py-12 text-background">
       <div className="container mx-auto">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex flex-col items-start gap-8">

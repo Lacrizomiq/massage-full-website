@@ -18,6 +18,11 @@ export const Description = () => (
                 Etablissons ensemble ton bien-être de demain
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
+                Nous te recevrons dans nos locaux situés en plein coeur du
+                village de Lagnes, havre de paix provencal, en plein coeur du
+                Vaucluse, proche de Isle sur la Sorgue, Cavaillon et Gordes.
+              </p>
+              <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
                 Nos massages et nos services sont conçues en fonction de chacun
                 afin de s'adapter aux mieux à tes besoins. Nous te transmettrons
                 les clés pour que tu puisses être en meilleure forme durablement

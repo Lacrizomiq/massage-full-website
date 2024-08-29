@@ -49,6 +49,38 @@ export const AutonomieMobilite = () => (
           <div className="flex flex-col flex-1 gap-4">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
+                Un moment conviviale et de partage
+              </h2>
+              <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
+                Nous vous proposons un moment de partage autour d'une boisson
+                chaude, des papotages ainsi que les activitès du jour afin de
+                vous offrir un moment de relaxation et de bonheur.
+              </p>
+
+              <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
+                A travers ces moments de partage, vous pourrez vous détendre et
+                travailler au maintien de votre autonomie.
+              </p>
+            </div>
+          </div>
+          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video"></div>
+        </div>
+      </div>
+    </div>
+    <Separator />
+    <div className="w-full py-4 lg:py-8">
+      <div className="container mx-auto">
+        <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
+          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
+            <img
+              src="/mobilite2.png"
+              alt="mobilite autonomie"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
+            />
+          </div>
+          <div className="flex flex-col flex-1 gap-4 pl-0 lg:pl-20">
+            <div className="flex flex-col gap-2">
+              <h2 className="text-xl tracking-tighter text-left md:text-3xl lg:max-w-xl font-regular">
                 Des coachs sportifs d'experience pour vous accompagner.
               </h2>
               <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
@@ -59,7 +91,6 @@ export const AutonomieMobilite = () => (
               </p>
             </div>
           </div>
-          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video"></div>
         </div>
       </div>
     </div>

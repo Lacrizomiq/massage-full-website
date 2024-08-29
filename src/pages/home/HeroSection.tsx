@@ -7,12 +7,12 @@ export const HeroSection = () => (
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-4">
             <h1 className="max-w-lg text-5xl tracking-tighter text-left md:text-7xl font-regular">
-              C'est ici que tout commence, tu es entre de bonnes mains.
+              C'est ici que tout commence. <br /> Tu es entre de bonnes mains.
             </h1>
             <p className="max-w-md text-xl leading-relaxed tracking-tight text-left text-muted-foreground">
-              Masseurs professionnels et Coachs sportifs, nous t'accompagnons
-              dans ton projet bien-être afin que tu puisses libérer le plein
-              potentiel de ton corps.
+              Masseurs professionnels et Coachs sportifs dans le Vaucluse, nous
+              t'accompagnons dans ton projet bien-être afin que tu puisses
+              libérer le plein potentiel de ton corps.
             </p>
           </div>
           <div className="flex flex-row gap-4">

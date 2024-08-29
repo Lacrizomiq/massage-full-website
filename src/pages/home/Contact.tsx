@@ -1,10 +1,10 @@
 // pages/Contact.tsx
 
-import { FaMobile, FaPhone } from "react-icons/fa";
+import { FaMobile } from "react-icons/fa";
 
 export const ContactPage = () => {
   return (
-    <section className="container px-4 py-8 mx-auto">
+    <section className="flex flex-col items-center justify-between gap-4 px-4 py-8 mx-auto">
       <h1 className="mb-8 text-3xl font-bold text-center md:text-4xl">
         Nous Trouver
       </h1>
@@ -33,7 +33,7 @@ export const ContactPage = () => {
             <a
               href="https://maps.app.goo.gl/yK4VaQq5dQHNFEma9"
               target="_blank"
-              className="inline-block px-4 py-2 mt-4 text-white bg-blue-600 rounded-lg hover:bg-blue-700"
+              className="inline-block px-4 py-2 mt-4 text-white bg-black rounded-lg hover:bg-blue-700"
               rel="noopener noreferrer"
             >
               Liens vers Google Maps
@@ -48,7 +48,7 @@ export const ContactPage = () => {
           </h2>
           <div className="space-y-6">
             <div className="flex items-center space-x-4">
-              <FaMobile className="text-4xl text-blue-600" />
+              <FaMobile className="text-4xl text-black" />
               <div>
                 <h3 className="text-xl font-semibold">Corentin</h3>
                 <a
@@ -60,7 +60,7 @@ export const ContactPage = () => {
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <FaMobile className="text-4xl text-blue-600" />
+              <FaMobile className="text-4xl text-black" />
               <div>
                 <h3 className="text-xl font-semibold">Max</h3>
                 <a
