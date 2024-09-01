@@ -56,14 +56,15 @@ export const AutonomieMobilite = () => (
                 chaude, des papotages ainsi que les activitès du jour afin de
                 vous offrir un moment de relaxation et de bonheur.
               </p>
-
-              <p className="max-w-xl text-lg leading-relaxed tracking-tight text-left lg:max-w-sm text-muted-foreground">
-                A travers ces moments de partage, vous pourrez vous détendre et
-                travailler au maintien de votre autonomie.
-              </p>
             </div>
           </div>
-          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video"></div>
+          <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
+            <img
+              src="/partage-senior.png"
+              alt="partage senior"
+              className="object-cover w-full h-full shadow-xl rounded-xl"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -73,8 +74,8 @@ export const AutonomieMobilite = () => (
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <img
-              src="/mobilite2.png"
-              alt="mobilite autonomie"
+              src="/senior-mobilite.png"
+              alt="mobilite autonomie senior"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
           </div>
