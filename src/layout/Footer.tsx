@@ -80,16 +80,6 @@ export const Footer = () => {
       icon: Instagram,
       url: "https://www.instagram.com/2m.studio84",
     },
-    {
-      name: "TikTok",
-      icon: TikTokIcon,
-      url: "https://www.tiktok.com/@votre_compte",
-    },
-    {
-      name: "YouTube",
-      icon: Youtube,
-      url: "https://www.youtube.com/c/votre_chaine",
-    },
   ];
 
   return (
