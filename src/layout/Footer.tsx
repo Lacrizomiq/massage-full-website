@@ -1,25 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Youtube } from "lucide-react";
-
-// TikTok icon n'est pas disponible dans lucide-react, donc nous allons créer un composant personnalisé
-const TikTokIcon = ({ size = 24, color = "currentColor", ...props }) => (
-  <svg
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
-  >
-    <path
-      d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 19.25 5a4.25 4.25 0 0 1 4.25 4.25v2.92c-1.38.26-2.9.14-4.25-.56v3.89a7.5 7.5 0 1 1-7-7.47V12a4.5 4.5 0 1 0 3.5 4.4v-9.1a7.5 7.5 0 0 0 4.25 1.97"
-      stroke={color}
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
+import { Instagram } from "lucide-react";
 
 export const Footer = () => {
   const navigationItems = [
