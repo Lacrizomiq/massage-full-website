@@ -38,7 +38,7 @@ export const AutonomieMobilite = () => (
                 sessions en petit groupe de jusqu'à 5 personnes, d'une durée
                 d'une heure, sont conçues pour améliorer l'équilibre, la
                 flexibilité et la force, afin de vous permettre de rester actif
-                et indépendant au quotidien.
+                et indépendant au quotidien
               </p>
             </div>
           </div>
