@@ -50,7 +50,7 @@ export default function RootLayout({
         <NavigationMenuHeader />
         {children}
         <Footer />
-        <Script id="schema-org" type="application/ld+json">
+        <Script id="schema-org" strategy="afterInteractive">
           {`
             {
               "@context": "https://schema.org",
