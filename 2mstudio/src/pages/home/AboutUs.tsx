@@ -16,7 +16,7 @@ export const AboutUs = () => (
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <Image
-              src="/coco-presentation.jpg"
+              src="/coco-presentation.webp"
               alt="Corentin"
               width={500}
               height={500}
@@ -82,7 +82,7 @@ export const AboutUs = () => (
           </div>
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <Image
-              src="/max-presentation.png"
+              src="/max-presentation.webp"
               alt="Max"
               className="object-cover object-top w-full h-full shadow-xl object rounded-xl"
               width={500}
@@ -98,7 +98,7 @@ export const AboutUs = () => (
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <Image
-              src="/massage-duo.jpg"
+              src="/massage-duo.webp"
               alt="Max et Corentin"
               className="object-cover object-top w-full h-full shadow-xl object rounded-xl"
               width={500}

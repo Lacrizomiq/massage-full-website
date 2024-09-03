@@ -8,7 +8,7 @@ export const Description = () => (
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <Image
-              src="/massage-duo.jpg"
+              src="/massage-duo.webp"
               alt="Max et Corentin"
               className="object-cover object-top w-full h-full shadow-xl object rounded-xl"
               width={500}
@@ -55,7 +55,7 @@ export const Description = () => (
           </div>
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
             <Image
-              src="/coco-max-description.png"
+              src="/coco-max-description.webp"
               alt="mobilite"
               className="object-cover w-full h-full shadow-xl rounded-xl"
               width={500}

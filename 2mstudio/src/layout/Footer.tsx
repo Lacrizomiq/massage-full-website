@@ -69,7 +69,12 @@ export const Footer = () => {
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex flex-col items-start gap-8">
             <div className="flex flex-col gap-2">
-              <Image src="/logo-full.png" alt="logo" width={300} height={126} />
+              <Image
+                src="/logo-full.webp"
+                alt="logo"
+                width={300}
+                height={126}
+              />
             </div>
             <div className="flex flex-col gap-4">
               <div className="text-sm text-background/75">

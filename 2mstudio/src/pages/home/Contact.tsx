@@ -52,10 +52,10 @@ export const ContactPage = () => {
               <div>
                 <h3 className="text-xl font-semibold">Corentin</h3>
                 <a
-                  href="tel:+33490000000"
+                  href="tel:+33767455731"
                   className="text-lg text-blue-600 hover:underline"
                 >
-                  +33 4 90 00 00 00
+                  07 67 45 57 31
                 </a>
               </div>
             </div>
@@ -64,10 +64,10 @@ export const ContactPage = () => {
               <div>
                 <h3 className="text-xl font-semibold">Max</h3>
                 <a
-                  href="tel:+33600000000"
+                  href="tel:+33674196701"
                   className="text-lg text-blue-600 hover:underline"
                 >
-                  +33 6 00 00 00 00
+                  06 74 19 67 01
                 </a>
               </div>
             </div>

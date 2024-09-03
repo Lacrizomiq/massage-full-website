@@ -1,11 +1,12 @@
 import { Separator } from "@/components/ui/separator";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { GoArrowLeft } from "react-icons/go";
+import Image from "next/image";
 
 export const MassageSportif = () => (
   <>
     <Link
-      to="/"
+      href="/"
       className="flex items-center pt-8 pl-8 tracking-tighter text-left underline lg:max-w-xl font-regular"
     >
       <GoArrowLeft /> Retour à la page d'accueil
@@ -14,8 +15,10 @@ export const MassageSportif = () => (
       <div className="container mx-auto">
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/IMG_9700.jpg"
+            <Image
+              src="/IMG_9700.webp"
+              width={500}
+              height={500}
               alt="massage sportif"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
@@ -65,8 +68,10 @@ export const MassageSportif = () => (
             </div>
           </div>
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/IMG_9702.jpg"
+            <Image
+              src="/IMG_9702.webp"
+              width={500}
+              height={500}
               alt="massage sportif"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
