@@ -1,8 +1,9 @@
 // pages/Contact.tsx
 
 import { FaMobile } from "react-icons/fa";
+import React from "react";
 
-export const ContactPage = () => {
+export default function ContactPage() {
   return (
     <section className="flex flex-col items-center justify-between gap-4 px-4 py-8 mx-auto">
       <h1 className="mb-8 text-3xl font-bold text-center md:text-4xl">
@@ -80,4 +81,4 @@ export const ContactPage = () => {
       </div>
     </section>
   );
-};
+}

@@ -1,4 +1,4 @@
-import { MassageBienEtre } from "@/pages/services/MassageBienEtre";
+import MassageBienEtre from "@/pages/services/MassageBienEtre";
 
 export default function MassageBienEtrePage() {
   return <MassageBienEtre />;
