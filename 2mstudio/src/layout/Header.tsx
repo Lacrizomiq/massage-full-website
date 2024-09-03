@@ -101,7 +101,7 @@ export function NavigationMenuHeader() {
             <NavigationMenuItem>
               <Link href="/contact" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Nous contacter
+                  Contact
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
