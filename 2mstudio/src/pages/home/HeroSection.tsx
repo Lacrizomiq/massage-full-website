@@ -23,7 +23,7 @@ export const HeroSection = () => (
         <div className="grid grid-cols-2 gap-8">
           <div className="rounded-md bg-muted aspect-square">
             <Image
-              src="/max-hero.png"
+              src="/max-hero.webp"
               alt="photo presentation max"
               className="object-cover w-full h-full shadow-xl rounded-xl"
               width={500}
@@ -32,7 +32,7 @@ export const HeroSection = () => (
           </div>
           <div className="row-span-2 rounded-md bg-muted">
             <Image
-              src="/max-coco-hero.png"
+              src="/max-coco-hero.webp"
               alt="photo presentation coco et max"
               className="object-cover w-full h-full shadow-xl rounded-xl"
               width={500}
@@ -41,7 +41,7 @@ export const HeroSection = () => (
           </div>
           <div className="rounded-md bg-muted aspect-square">
             <Image
-              src="/coco-hero.png"
+              src="/coco-hero.webp"
               alt="photo presentation coco"
               className="object-cover w-full h-full shadow-xl rounded-xl"
               width={500}

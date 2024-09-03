@@ -1,11 +1,12 @@
 import { Separator } from "@/components/ui/separator";
 import { GoArrowLeft } from "react-icons/go";
-import { Link } from "react-router-dom";
+import Link from "next/link";
+import Image from "next/image";
 
 export const AutonomieMobilite = () => (
   <>
     <Link
-      to="/"
+      href="/"
       className="flex items-center pt-8 pl-8 tracking-tighter text-left underline lg:max-w-xl font-regular"
     >
       <GoArrowLeft /> Retour à la page d'accueil
@@ -14,8 +15,10 @@ export const AutonomieMobilite = () => (
       <div className="container mx-auto">
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/mobilite2.png"
+            <Image
+              src="/mobilite2.webp"
+              width={500}
+              height={500}
               alt="mobilite autonomie"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
@@ -35,7 +38,7 @@ export const AutonomieMobilite = () => (
                 sessions en petit groupe de jusqu'à 5 personnes, d'une durée
                 d'une heure, sont conçues pour améliorer l'équilibre, la
                 flexibilité et la force, afin de vous permettre de rester actif
-                et indépendant au quotidien.
+                et indépendant au quotidien
               </p>
             </div>
           </div>
@@ -59,8 +62,10 @@ export const AutonomieMobilite = () => (
             </div>
           </div>
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/partage-senior.png"
+            <Image
+              src="/partage-senior.webp"
+              width={500}
+              height={500}
               alt="partage senior"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
@@ -73,8 +78,10 @@ export const AutonomieMobilite = () => (
       <div className="container mx-auto">
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/senior-mobilite.png"
+            <Image
+              src="/senior-mobilite.webp"
+              width={500}
+              height={500}
               alt="mobilite autonomie senior"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />

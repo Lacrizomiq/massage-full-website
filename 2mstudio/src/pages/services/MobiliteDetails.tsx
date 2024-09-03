@@ -1,11 +1,12 @@
 import { Separator } from "@/components/ui/separator";
-import { Link } from "react-router-dom";
+import Link from "next/link";
+import Image from "next/image";
 import { GoArrowLeft } from "react-icons/go";
 
 export const MobiliteDetails = () => (
   <>
     <Link
-      to="/"
+      href="/"
       className="flex items-center pt-8 pl-8 tracking-tighter text-left underline lg:max-w-xl font-regular"
     >
       <GoArrowLeft /> Retour à la page d'accueil
@@ -14,8 +15,10 @@ export const MobiliteDetails = () => (
       <div className="container mx-auto">
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/mobilite1.png"
+            <Image
+              src="/mobilite1.webp"
+              width={500}
+              height={500}
               alt="Mobilité massage"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
@@ -63,8 +66,10 @@ export const MobiliteDetails = () => (
             </div>
           </div>
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/mobilite-massage.png"
+            <Image
+              src="/mobilite-massage.webp"
+              width={500}
+              height={500}
               alt="Mobilité massage"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />

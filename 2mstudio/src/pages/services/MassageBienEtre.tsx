@@ -1,11 +1,12 @@
 import { Separator } from "@/components/ui/separator";
 import { GoArrowLeft } from "react-icons/go";
-import { Link } from "react-router-dom";
+import Link from "next/link";
+import Image from "next/image";
 
 export const MassageBienEtre = () => (
   <>
     <Link
-      to="/"
+      href="/"
       className="flex items-center pt-8 pl-8 tracking-tighter text-left underline lg:max-w-xl font-regular"
     >
       <GoArrowLeft /> Retour à la page d'accueil
@@ -14,8 +15,10 @@ export const MassageBienEtre = () => (
       <div className="container mx-auto">
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/IMG_9846.jpg"
+            <Image
+              src="/IMG_9846.webp"
+              width={500}
+              height={500}
               alt="massage sportif"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
@@ -66,8 +69,10 @@ export const MassageBienEtre = () => (
             </div>
           </div>
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/IMG_9804.jpg"
+            <Image
+              src="/IMG_9804.webp"
+              width={500}
+              height={500}
               alt="massage sportif"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />
@@ -79,8 +84,10 @@ export const MassageBienEtre = () => (
       <div className="container mx-auto">
         <div className="flex flex-col-reverse gap-10 lg:flex-row lg:items-center">
           <div className="flex-1 w-full h-full rounded-md bg-muted aspect-video">
-            <img
-              src="/duo.png"
+            <Image
+              src="/duo.webp"
+              width={500}
+              height={500}
               alt="massage paire"
               className="object-cover w-full h-full shadow-xl rounded-xl"
             />

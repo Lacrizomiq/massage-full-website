@@ -50,7 +50,7 @@ export function NavigationMenuHeader() {
     <header className="flex flex-col items-center justify-between px-6 space-y-4 md:justify-center md:items-center md:px-24 md:flex-col md:space-y-4 lg:flex-row lg:space-y-0">
       <div className="py-4">
         <Link href="/">
-          <Image src="/logo.png" alt="logo" width={110} height={120} />
+          <Image src="/logo.webp" alt="logo" width={110} height={120} />
         </Link>
       </div>
       <nav className="w-full pl-12 md:w-auto md:justify-center md:items-center">
