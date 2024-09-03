@@ -4,6 +4,7 @@ import "./globals.css";
 import { NavigationMenuHeader } from "@/layout/Header";
 import { Footer } from "@/layout/Footer";
 import Script from "next/script";
+import ScrollToTop from "@/utils/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,6 +48,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" href="/logo-blanc.png" />
       </head>
       <body className={inter.className}>
+        <ScrollToTop />
         <NavigationMenuHeader />
         {children}
         <Footer />
