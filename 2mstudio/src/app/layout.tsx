@@ -8,32 +8,54 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title:
-    "2M Studio - Massages Bien-être et Sportif dans le Vaucluse, proche de Isle sur la Sorgue",
+  title: "2M Studio - Massages Bien-être et Sportif dans le Vaucluse",
   description:
     "2M Studio propose des massages bien-être et sportifs personnalisés à Lagnes dans le Vaucluse (84). Améliorez votre mobilité et relaxez-vous avec nos experts en massage.",
   keywords:
-    "massage, bien-être, sportif, Lagnes, Isle sur la Sorgue, Cavaillon, Gordes, Vaucluse, mobilité, relaxation, récupération, séniors, coaching, musculation, coaching personnalisés",
+    "2mstudio, massage, bien-être, sportif, lagnes, vaucluse, mobilité, relaxation, récupération, coaching",
   openGraph: {
-    title:
-      "2M Studio - Massages Bien-être et Sportif dans le Vaucluse, proche de Isle sur la Sorgue",
-    description:
-      "Découvrez nos massages personnalisés pour votre bien-être et performance sportive.",
+    type: "website",
+    locale: "fr_FR",
     url: "https://www.2mstudio84.fr",
     siteName: "2M Studio",
+    title: "2M Studio - Massages Bien-être et Sportif dans le Vaucluse",
+    description:
+      "Découvrez nos massages personnalisés pour votre bien-être et performance sportive à Lagnes, Vaucluse.",
     images: [
       {
-        url: "http://www.2mstudio84.fr/logo.webp",
+        url: "https://www.2mstudio84.fr/logo.webp",
         width: 800,
         height: 600,
+        alt: "Logo 2M Studio",
       },
     ],
-    locale: "fr_FR",
-    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@2mstudio84",
+    title: "2M Studio - Massages Bien-être et Sportif",
+    description:
+      "Massages personnalisés pour votre bien-être et performance sportive à Lagnes, Vaucluse.",
+    images: ["https://www.2mstudio84.fr/logo.webp"],
   },
   alternates: {
     canonical: "https://www.2mstudio84.fr",
+    types: {
+      "application/xml": "/sitemap.xml",
+    },
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  metadataBase: new URL("https://www.2mstudio84.fr"),
 };
 
 export default function RootLayout({
@@ -44,7 +66,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" type="image/png" href="/logo-blanc.png" />
+        <link rel="icon" type="image/png" href="/logo-blanc.webp" />
       </head>
       <body className={inter.className}>
         <NavigationMenuHeader />

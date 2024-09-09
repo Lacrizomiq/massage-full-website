@@ -26,7 +26,7 @@ export default function HeroSection() {
             <div className="rounded-md bg-muted aspect-square">
               <Image
                 src="/max-hero.webp"
-                alt="photo presentation max"
+                alt="Max, masseur professionnel et coach sportif de 2M Studio"
                 className="object-cover w-full h-full shadow-xl rounded-xl"
                 width={500}
                 height={500}
@@ -35,7 +35,7 @@ export default function HeroSection() {
             <div className="row-span-2 rounded-md bg-muted">
               <Image
                 src="/max-coco-hero.webp"
-                alt="photo presentation coco et max"
+                alt="Max et Coco, masseurs professionnels et coachs sportifs de 2M Studio"
                 className="object-cover w-full h-full shadow-xl rounded-xl"
                 width={500}
                 height={500}
@@ -44,7 +44,7 @@ export default function HeroSection() {
             <div className="rounded-md bg-muted aspect-square">
               <Image
                 src="/coco-hero.webp"
-                alt="photo presentation coco"
+                alt="Coco, masseur professionnels et coach sportif de 2M Studio"
                 className="object-cover w-full h-full shadow-xl rounded-xl"
                 width={500}
                 height={500}

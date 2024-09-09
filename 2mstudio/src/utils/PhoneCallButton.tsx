@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const PhoneCallButton: React.FC = () => {
   const phoneNumbers = [
     process.env.NEXT_PUBLIC_PHONE_NUMBER_1 || "",
-    process.env.NEXT_PUBLIC_PHONE_NUMBER_2 || "",
+    // process.env.NEXT_PUBLIC_PHONE_NUMBER_2 || "",
   ];
 
   const getRandomPhoneNumber = () => {

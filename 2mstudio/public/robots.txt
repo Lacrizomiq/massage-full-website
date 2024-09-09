@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.2mstudio84.fr
+
+# Sitemaps
+Sitemap: https://www.2mstudio84.fr/sitemap.xml
