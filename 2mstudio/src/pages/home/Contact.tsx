@@ -2,6 +2,9 @@
 
 import { FaMobile } from "react-icons/fa";
 import React from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { FaRegAddressBook } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
@@ -44,7 +47,7 @@ export default function ContactPage() {
 
         {/* Section Numéros de Téléphone */}
         <div>
-          <h2 className="mb-8 text-3xl font-bold text-center md:text-4xl">
+          <h2 className="mb-8 text-3xl font-bold md:text-4xl">
             Nous Contacter
           </h2>
           <div className="space-y-6">
@@ -77,6 +80,20 @@ export default function ContactPage() {
             N'hésitez pas à nous appeler pour toute question ou pour prendre
             rendez-vous. Nous sommes à votre disposition pour vous aider.
           </p>
+
+          <h2 className="mt-6 text-2xl font-semibold  mb-4">
+            Réserver en ligne via Planity
+          </h2>
+
+          <a
+            href="https://www.planity.com/studio-2-m-84800-lagnes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="w-full md:w-auto">
+              Réserver en ligne <FaRegAddressBook className="ml-2" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>

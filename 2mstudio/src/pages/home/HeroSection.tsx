@@ -1,6 +1,9 @@
 import PhoneCallButton from "@/utils/PhoneCallButton";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { FaRegAddressBook } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
@@ -18,8 +21,17 @@ export default function HeroSection() {
                 puisses libérer le plein potentiel de ton corps.
               </p>
             </div>
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-col gap-4 md:flex-row">
               <PhoneCallButton />
+              <a
+                href="https://www.planity.com/studio-2-m-84800-lagnes"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="w-full md:w-auto">
+                  Réserver en ligne <FaRegAddressBook className="ml-2" />
+                </Button>
+              </a>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-8">
